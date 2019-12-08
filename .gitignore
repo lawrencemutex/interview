@@ -1,0 +1,28 @@
+*.pyc
+__pycache__/
+received_files/
+processed_files/
+
+# the files we want to ignore from the frontend setup
+node_modules/
+package-lock.json
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
